@@ -1,2 +1,6 @@
 # OfferUp Helper
-Helps to interact with unlisted and removed items within boards.
+## Description
+Helps to interact with saved listings whithin boards. Allows to remove unlisted and removed listings cause it's literally impossible at current time.
+
+## Links
+[Chrome Web Store Link](https://chrome.google.com/webstore/detail/offerup-helper/pgllhmdhdoijdnjkegeecaidmpdgolok)
