@@ -1,7 +1,7 @@
 {
   "name": "OfferUp Helper",
-  "version": "1.0",
-  "description": "Helps to remove unlisted and removed items from you boards.",
+  "version": "1.1.1",
+  "description": "Helps to manage boards and unlisted/removed items from you boards.",
   "manifest_version": 2,
   "permissions": [
     "webRequest"
@@ -9,9 +9,11 @@
   "content_scripts": [
     {
       "matches": [
-        "https://offerup.com/board/*"
+        "https://offerup.com/board/*",
+        "https://offerup.com/boards/"
       ],
-      "js": ["js/jquery-3.4.1.min.js", "js/content.js"]
+      "js": ["js/jquery-3.4.1.min.js", "js/common.js", "js/content.js"],
+      "css": ["css/main.css"]
     }
   ],
   "icons": {
