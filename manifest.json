@@ -9,9 +9,11 @@
   "content_scripts": [
     {
       "matches": [
-        "https://offerup.com/board/*"
+        "https://offerup.com/board/*",
+        "https://offerup.com/boards/"
       ],
-      "js": ["js/jquery-3.4.1.min.js", "js/content.js"]
+      "js": ["js/jquery-3.4.1.min.js", "js/common.js", "js/content.js"],
+      "css": ["css/main.css"]
     }
   ],
   "icons": {

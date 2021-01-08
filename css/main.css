@@ -1,0 +1,11 @@
+/* Remove button */
+.remove {
+  position: absolute;
+  z-index: 1;
+  padding-left: 3px;
+  border-radius: 0px;
+  padding-right: 4px;
+  line-height: 17px;
+  margin-left: calc(100% - 18px);
+  background: rgb(0, 171, 128, 0.5);
+}
