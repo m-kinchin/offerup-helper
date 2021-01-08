@@ -1,7 +1,7 @@
 {
   "name": "OfferUp Helper",
-  "version": "1.0.1",
-  "description": "Helps to remove unlisted and removed items from you boards.",
+  "version": "1.1.1",
+  "description": "Helps to manage boards and unlisted/removed items from you boards.",
   "manifest_version": 2,
   "permissions": [
     "webRequest"
